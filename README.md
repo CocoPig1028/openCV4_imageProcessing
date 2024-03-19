@@ -7,11 +7,17 @@ repository for imageProcessing using openCV4
 4. openCV_04: arithmetic operation -> add, addWeighted, subtract, absdiff
 5. openCV_05: logical operation -> bitwise_and, bitwise_or, bitwise_xor, bitwise_not
 6. openCV_06: image embossing -> filter2D
-7. openCV_07: image blurring -> blur, GaussianBlur, getGaussianKernal
+7. openCV_07: image blurring -> blur(평균값 필터), GaussianBlur(가우시안 필터), getGaussianKernal
 8. openCV_08: sharpening -> unsharp mask filter
 9. openCV_09: noise filtering -> randn, bilateralFilter(픽셀값에 따른 평탄화), medianBlur(자기 주변을 포함한 픽셀값 중 중간값을 이용하여 잡음 제거)
 10. openCV_10: affine transformation -> getAffineTransform(어파인 변환 행렬 계산), warpAffine(어파인 변환 영상), 이동 변환, 전단 변환, 크기 변환, 회전 변환, 대칭 변환
 11. openCV_11: perspective transformation -> getPerspectiveTransform(투시 변환 행렬 계산), warpPerspective(투시 변환 영상), 지정한 점을 이용한 행렬 계산
+
+Summary
+1 - 3 : 영상의 밝기와 명암비 조절 (밝기, 명암비, 히스토그램)
+4 - 5 : 영상의 산술 및 논리 연산
+6 - 9 : 필터링 (엠보싱, 블러링, 샤프닝, 잡음 제거 필터링)
+10 - 11 : 영상의 기하학적 변환 (어파인 변환, 투시 변환)
 
 The contents of this repository contain information studied by referring to the books below.
 1. "openCV4로 배우는 컴퓨터 비전과 머신러닝" 길벗
