@@ -1,6 +1,7 @@
 # openCV4_imageProcessing
 repository for imageProcessing using openCV4
 
+# File Name and subject
 1. openCV_01: brightness control
 2. openCV_02: contrast control -> 사물의 구분을 증가시키는 방법
 3. openCV_03: histogram control -> 히스토그램 스트레칭, 히스토그램 평활화, 히스토그램 계산, 히스토그램 출력
@@ -13,12 +14,13 @@ repository for imageProcessing using openCV4
 10. openCV_10: affine transformation -> getAffineTransform(어파인 변환 행렬 계산), warpAffine(어파인 변환 영상), 이동 변환, 전단 변환, 크기 변환, 회전 변환, 대칭 변환
 11. openCV_11: perspective transformation -> getPerspectiveTransform(투시 변환 행렬 계산), warpPerspective(투시 변환 영상), 지정한 점을 이용한 행렬 계산
 
-Summary
+# Summary
 1 - 3 : 영상의 밝기와 명암비 조절 (밝기, 명암비, 히스토그램)
 4 - 5 : 영상의 산술 및 논리 연산
 6 - 9 : 필터링 (엠보싱, 블러링, 샤프닝, 잡음 제거 필터링)
 10 - 11 : 영상의 기하학적 변환 (어파인 변환, 투시 변환)
 
+# Reference
 The contents of this repository contain information studied by referring to the books below.
 1. "openCV4로 배우는 컴퓨터 비전과 머신러닝" 길벗
 2. "Learning! OpenCV3" O'REILLY'
