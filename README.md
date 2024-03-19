@@ -8,6 +8,7 @@ repository for imageProcessing using openCV4
 5. openCV_05: logical operation -> bitwise_and, bitwise_or, bitwise_xor, bitwise_not
 6. openCV_06: image embossing -> filter2D
 7. openCV_07: image blurring -> blur, GaussianBlur, getGaussianKernal
+8. openCV_08: sharpening -> unsharp mask filter
 
 The contents of this repository contain information studied by referring to the books below.
 1. "openCV4로 배우는 컴퓨터 비전과 머신러닝" 길벗
