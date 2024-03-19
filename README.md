@@ -9,6 +9,7 @@ repository for imageProcessing using openCV4
 6. openCV_06: image embossing -> filter2D
 7. openCV_07: image blurring -> blur, GaussianBlur, getGaussianKernal
 8. openCV_08: sharpening -> unsharp mask filter
+9. openCV_09: noise filtering -> randn, bilateralFilter(픽셀값에 따른 평탄화), medianBlur(자기 주변을 포함한 픽셀값 중 중간값을 이용하여 잡음 제거) 
 
 The contents of this repository contain information studied by referring to the books below.
 1. "openCV4로 배우는 컴퓨터 비전과 머신러닝" 길벗
