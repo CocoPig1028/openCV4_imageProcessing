@@ -1,7 +1,7 @@
 # openCV4_imageProcessing
 repository for imageProcessing using openCV4
 
-# File Name and subject
+## File Name and subject
 1. openCV_01: brightness control
 2. openCV_02: contrast control -> 사물의 구분을 증가시키는 방법
 3. openCV_03: histogram control -> 히스토그램 스트레칭, 히스토그램 평활화, 히스토그램 계산, 히스토그램 출력
@@ -19,7 +19,7 @@ repository for imageProcessing using openCV4
 15. openCV_15: 컬러 히스토그램 평활화 -> BGR에서 YCrCb로 변환 후 Y값에 대한 히스토그램 평활화
 16. openCV_16: 색상 범위 지정에 의한 영역 분할 -> inRange();
 
-# Summary
+## Summary
 1 - 3 : 영상의 밝기와 명암비 조절 (밝기, 명암비, 히스토그램)
 
 4 - 5 : 영상의 산술 및 논리 연산
@@ -32,7 +32,7 @@ repository for imageProcessing using openCV4
 
 14 - 17 : 컬러 영상 처리 (색상 변환, 컬러 히스토그램 평활화, 색상 범위 지정에 의한 영역 분할, 히스토그램 역투영)
 
-# Reference
+## Reference
 The contents of this repository contain information studied by referring to the books below.
 1. "openCV4로 배우는 컴퓨터 비전과 머신러닝" 길벗
 2. "Learning! OpenCV3" O'REILLY'
