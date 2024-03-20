@@ -17,6 +17,7 @@ repository for imageProcessing using openCV4
 13. openCV_13: hough transform -> 허프 직선 변환 houghLines(), 허프 변환 원 검출 houghCircles()
 14. openCV_14: 색상 변환, 색상 분리 -> cvtColor(), split()
 15. openCV_15: 컬러 히스토그램 평활화 -> BGR에서 YCrCb로 변환 후 Y값에 대한 히스토그램 평활화
+16. openCV_16: 색상 범위 지정에 의한 영역 분할 -> inRange();
 
 # Summary
 1 - 3 : 영상의 밝기와 명암비 조절 (밝기, 명암비, 히스토그램)
@@ -28,6 +29,8 @@ repository for imageProcessing using openCV4
 10 - 11 : 영상의 기하학적 변환 (어파인 변환, 투시 변환)
 
 12 - 13 : 에지 검출과 응용 (마스크 기반 엣지 검출, 캐니 검출, 허프 변환)
+
+14 - 17 : 컬러 영상 처리 (색상 변환, 컬러 히스토그램 평활화, 색상 범위 지정에 의한 영역 분할, 히스토그램 역투영)
 
 # Reference
 The contents of this repository contain information studied by referring to the books below.
