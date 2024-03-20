@@ -18,6 +18,7 @@ repository for imageProcessing using openCV4
 14. openCV_14: 색상 변환, 색상 분리 -> cvtColor(), split()
 15. openCV_15: 컬러 히스토그램 평활화 -> BGR에서 YCrCb로 변환 후 Y값에 대한 히스토그램 평활화
 16. openCV_16: 색상 범위 지정에 의한 영역 분할 -> inRange();
+17. openCV_17: 히스토그램 역투영을 이용한 영역 검출 -> calcBackProject(), calcHist()를 이용하여 마스크에 해당하는 히스토그램 추출후 역산)
 
 ## Summary
 1 - 3 : 영상의 밝기와 명암비 조절 (밝기, 명암비, 히스토그램)
