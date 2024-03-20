@@ -16,9 +16,13 @@ repository for imageProcessing using openCV4
 
 # Summary
 1 - 3 : 영상의 밝기와 명암비 조절 (밝기, 명암비, 히스토그램)
+
 4 - 5 : 영상의 산술 및 논리 연산
+
 6 - 9 : 필터링 (엠보싱, 블러링, 샤프닝, 잡음 제거 필터링)
+
 10 - 11 : 영상의 기하학적 변환 (어파인 변환, 투시 변환)
+
 
 # Reference
 The contents of this repository contain information studied by referring to the books below.
