@@ -13,6 +13,7 @@ repository for imageProcessing using openCV4
 9. openCV_09: noise filtering -> randn, bilateralFilter(픽셀값에 따른 평탄화), medianBlur(자기 주변을 포함한 픽셀값 중 중간값을 이용하여 잡음 제거)
 10. openCV_10: affine transformation -> getAffineTransform(어파인 변환 행렬 계산), warpAffine(어파인 변환 영상), 이동 변환, 전단 변환, 크기 변환, 회전 변환, 대칭 변환
 11. openCV_11: perspective transformation -> getPerspectiveTransform(투시 변환 행렬 계산), warpPerspective(투시 변환 영상), 지정한 점을 이용한 행렬 계산
+12. openCV_12: edge detection -> derivate, 마스크 기반 엣지 검출(sobel filters, scharr filter), canny(가우시안 필터링, 그레디언트 계산, 비최대 억제, 이중 임계값을 이용한 히스테리시스 엣지 트래킹)
 
 # Summary
 1 - 3 : 영상의 밝기와 명암비 조절 (밝기, 명암비, 히스토그램)
