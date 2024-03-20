@@ -15,6 +15,7 @@ repository for imageProcessing using openCV4
 11. openCV_11: perspective transformation -> getPerspectiveTransform(투시 변환 행렬 계산), warpPerspective(투시 변환 영상), 지정한 점을 이용한 행렬 계산
 12. openCV_12: edge detection -> derivate, 마스크 기반 엣지 검출(sobel filters, scharr filter), canny(가우시안 필터링, 그레디언트 계산, 비최대 억제, 이중 임계값을 이용한 히스테리시스 엣지 트래킹)
 13. openCV_13: hough transform -> 허프 직선 변환 houghLines(), 허프 변환 원 검출 houghCircles()
+14. openCV_14: 색상 변환, 색상 분리 -> cvtColor(), split()
 
 # Summary
 1 - 3 : 영상의 밝기와 명암비 조절 (밝기, 명암비, 히스토그램)
